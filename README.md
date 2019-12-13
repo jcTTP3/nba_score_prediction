@@ -1,4 +1,4 @@
-# Prediction Fantasy Basketball Points with Multiple Linear Regression
+# Predicting Fantasy Basketball Points with Multiple Linear Regression
 
 ## The Goal
 The aim of this project is to try to predict daily fantasy performance, as measured by the DraftKings [formula](https://www.draftkings.com/help/rules/nba) using a multiple regression model.
