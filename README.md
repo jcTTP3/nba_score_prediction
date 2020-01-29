@@ -26,7 +26,7 @@ In order make the variables in our model more normally distributed and thus comp
 We used 70% of the data to train the model and then tested the model on 30% of the data.
 
 ### Correlation Matrix of Final Model
-<img src = "https://github.com/rweng18/nba_score_prediction/blob/master/Images/fig4_correlation_matrix_final_vars.jpg" width = "400" height = "300">
+<img src = "https://github.com/rweng18/nba_score_prediction/blob/master/Images/fig4_correlation_matrix_final_vars.jpg" width = "600" height = "450">
 
 ## Results & Future Work
 Our final model achieved an r-squared of 0.495, with an F-Stat of 9,079 and a p-value for each of our predictor variables close to zero. However the average mean squared error for our model is more than 10% of the range for our target variable (in power transformed terms). The model produces significant results, however could be improved through the incorporation of additional predictors like strength of opponent, rest days, travel, and others. This model is satisfactory, although we would like to explore the use of other models such as ridge regression and time series analysis in order to better explain the variation in daily fantasy points.
