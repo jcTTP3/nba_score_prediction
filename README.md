@@ -8,6 +8,8 @@ The National Basketball Association provides historical game information that is
 * 50,000+ data points
 * 700+ individual players
 
+We used the MySQL_Helper module developed by Charlie Schlinkert [here](https://github.com/schlinkertc/MySQL_Helper) to manage the MySQL database.
+
 We took the original data and calculated Draft Kings fantasy points (DK_PTS), as well as rolling three game averages for each statistic for each player for each game (variables ending in _TRAIL3).
 
 ### Untransformed Data
